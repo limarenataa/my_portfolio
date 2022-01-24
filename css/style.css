@@ -160,6 +160,10 @@
 .card-item {
     position: relative;
 }
+.card-item img {
+    width: 100%;
+    height: 100%
+}
 
 .info-card-container{
     display: flex;
@@ -176,7 +180,7 @@
     text-align: center;
     text-decoration: none;
     z-index: 3;
-
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .card-title {
